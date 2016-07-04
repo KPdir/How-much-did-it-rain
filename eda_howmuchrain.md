@@ -76,14 +76,14 @@ Predict the amount of as rain measured by the rain gauges (in 'mm') over a perio
 
 - Remove all rows with Expected > 150 mm. Lets look at the rain gauge values ("Expected" column) in the training set which are < 150 mm. 
 
-|  <img src="/Users/workhorse2/Documents/Meetup_Competetions/How_much_did_it_rain_II/figures/Expected_less150.png" width="300" align="center"> |
+|  <img src="./figures/Expected_less150.png" width="300" align="center"> |
 |-----------------------------|
 |Figure. Most of the rain gauge readings are  < 50 mm.|
 
 
 - The marshall palmer predictions (benchmark) are noisy at low rain gauge readings.
 
-|  <img src="/Users/workhorse2/Documents/Meetup_Competetions/How_much_did_it_rain_II/figures/MPalmer_Expected.png" width="300" align="center"> |
+|  <img src="./figures/MPalmer_Expected.png" width="300" align="center"> |
 |-----------------------------|
 |Figure. Comparing the Marshall palmer predictions with observed rain gauge readings.|
 
@@ -126,7 +126,7 @@ Predict the amount of as rain measured by the rain gauges (in 'mm') over a perio
 - Traditional neural nets: 
     - Feed-forward nets. Use Backpropagation algorithm for training.  
 
-|  <img src="/Users/workhorse2/Documents/Meetup_Competetions/How_much_did_it_rain_II/figures/wiki_neural_net.png" width="300" align="center"> |
+|  <img src="./figures/wiki_neural_net.png" width="300" align="center"> |
 |-----------------------------|
 |Figure. Standard feed-forward neural net. Source: wikipedia|
 
@@ -136,12 +136,12 @@ Predict the amount of as rain measured by the rain gauges (in 'mm') over a perio
     - Backpropagation can also be used to train RNN's but it just gets a litte more complicated. 
     
     
-|  <img src="/Users/workhorse2/Documents/Meetup_Competetions/How_much_did_it_rain_II/figures/wikiRNN.png" width="300" align="center"> |
+|  <img src="./figures/wikiRNN.png" width="300" align="center"> |
 |-----------------------------|
 |Figure. Recurrent neural net has delayed outputs from the hidden layer as additional inputs to the hidden layer.  Source: wikibooks.org|
 
 
-|  <img src="/Users/workhorse2/Documents/Meetup_Competetions/How_much_did_it_rain_II/figures/RNN_unrolled_Colah.png" width="600" align="center"> |
+|  <img src="./figures/RNN_unrolled_Colah.png" width="600" align="center"> |
 |-----------------------------|
 |Figure. An unrolled picture of a recurrent neural net makes the sequential behaviour clear. Source: [Cristopher Olah's blog](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) |
 
