@@ -386,7 +386,7 @@ any(unlist(lapply(chk$tdiff , function(x) {x < 0})));
 - Traditional neural nets: 
     - Feed-forward nets. Use Backpropagation algorithm for training.  
 
-|  <img src="/Users/workhorse2/Documents/Meetup_Competetions/How_much_did_it_rain_II/figures/wiki_neural_net.png" width="300" align="center"> |
+|  <img src="./figures/wiki_neural_net.png" width="300" align="center"> |
 |-----------------------------|
 |Figure. Standard feed-forward neural net. Source: wikipedia|
 
